@@ -102,7 +102,7 @@ variable "github_token" {
 
 variable "github_token_type" {
   type        = string
-  default     = "PARAMETER_STORE"
+  default     = "PLAINTEXT"
   description = "Storage type of GITHUB_TOKEN environment variable (`PARAMETER_STORE`, `PLAINTEXT`, `SECRETS_MANAGER`)"
 }
 
